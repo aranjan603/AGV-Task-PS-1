@@ -1,0 +1,5 @@
+Caution:
+ 
+1. After execution the command 'roscore'; in the new window, change direction to home ( cd ) and then type rosrun [package name] talker; otherwise it gives (core dumped)
+
+2. Make sure to run the listener node before the talker node(Both in separate terminals) otherwise the plotting will start from someone in the middle.
